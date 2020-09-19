@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+}
+.App {
+  background-color: #a5a1a1;
+
+}
+.body_app {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(158, 154, 154, 0.986);
+  object-fit: contain;
+  padding: 1px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+.app__headerImage {
+  height: 55px;
+  width: 160px;
+  object-fit: contain;
+  padding-left: 10px;
+}
+
+.app__form__signup {
+  display: flex;
+  flex-direction: column;
+
+}
+.sign_up__outside_button:hover {
+  background-color: #c7c7c7;
+  border-radius: 10px;
+  color: rgb(214, 227, 231);
+  transition: color 100ms ease-out;
+}
+
+.app__form__signin {
+  display: flex;
+  flex-direction: column;
+}
+.sign_in__outside_button:hover {
+  background-color: #c7c7c7;
+  border-radius: 10px;
+  color: rgb(214, 227, 231);
+  transition: color 100ms ease-out;
+}
+.signIn_Image {
+  height: 30px;
+  width: 30px;
+}
+
+.widget {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.app__loginContainer{
+  display: flex;
+
+}
+.message_to_login {
+  margin-left: 150px;
+  margin-top: 5px;
+  padding: 10px;
+  color: rgb(214, 227, 231);
+}
+.pinterest_left_side {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}

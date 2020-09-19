@@ -1,0 +1,26 @@
+.sidebar {
+    border-left: 1px solid grey;
+    min-width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 1px;
+    height: 404vh;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.youtube_social {
+    color: #c4302b;
+}
+.facebook_social {
+    color: #3b5998;
+}
+.twitter_social{
+    color: #00acee;
+}
+.instagram_social{
+    color: #405DE6;
+}
